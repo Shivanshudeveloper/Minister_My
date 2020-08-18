@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <title>Videos</title>
+  </head>
+  <body>
+
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                Dr. Ramesh Pokhriyal 'Nishank'
+            </a>
+            <span class="navbar-text">
+                <a href="index.php">Back</a>
+            </span>
+        </div>
+        
+    </nav>
+
+
+    <section class="m-4">
+        <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-2">
+                <div class="card shadow-sm p-3 bg-white rounded">
+                <iframe width="470" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+                <div class="card-body text-center">
+                <h5 class="card-title">Video</h5>
+                    
+                </div>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="card shadow-sm p-3 bg-white rounded">
+                <iframe width="470" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+                <div class="card-body text-center">
+                <h5 class="card-title">Video</h5>
+                    
+                </div>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="card shadow-sm p-3 bg-white rounded">
+                <iframe width="470" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+                <div class="card-body text-center">
+                <h5 class="card-title">Video</h5>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>
